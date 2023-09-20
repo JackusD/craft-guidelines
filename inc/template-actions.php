@@ -11,7 +11,7 @@ function guidelines_child_styles() {
 		wp_enqueue_style('guidelines-child-theme-main-css');
 	}
 }
-add_action('wp_enqueue_scripts', 'guidelines_child_styles', 2);
+add_action('wp_enqueue_scripts', 'guidelines_child_styles', 20);
 
 function guidelines_child_scripts() {
 	$manifest = guidelines_child_get_manifest();

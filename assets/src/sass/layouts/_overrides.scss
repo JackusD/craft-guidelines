@@ -1,0 +1,47 @@
+body {
+    .site-header {
+        &__inner {
+            padding-top: rem(140);
+        }
+    }
+
+    .site-header-logo {
+        display: none;
+    }
+
+    .page-heading {
+        &__meta {
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            font-size: rem(14);
+        }
+
+        &__date {
+            text-transform: none;
+            letter-spacing: 0.05em;
+        }
+
+        &__heading {
+            font-family: 'Cooper Lt Bt', sans-serif;
+            font-weight: 400;
+        }
+    }
+    
+    .description {
+        &__heading {
+            font-size: rem(18);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+    }
+
+    .text {
+        h3 {
+            font-size: rem(24);
+
+            @media all and (min-width: em(768)) {
+                font-size: rem(46);
+            }
+        }
+    }
+}
