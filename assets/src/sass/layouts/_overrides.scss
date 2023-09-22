@@ -9,6 +9,20 @@ body {
         display: none;
     }
 
+    .site-menu-list {
+        .sub-menu {
+            .menu-item {
+                > .menu-item__inner {
+                    > a {
+                        &:before {
+                            content: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .page-heading {
         &__meta {
             text-transform: uppercase;
