@@ -37,6 +37,8 @@ body {
 
     .text {
         h3 {
+            font-family: 'Cooper Lt Bt', sans-serif;
+            font-weight: 400;
             font-size: rem(24);
 
             @media all and (min-width: em(768)) {
